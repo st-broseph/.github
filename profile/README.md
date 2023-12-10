@@ -84,6 +84,8 @@ export interface Ticket {
   urgent: boolean;
   location?: Location;
   voiceNote?: AudioRecord;
+  createdDate: Date;
+  lastModified: Date;
 }
 
 export interface User {

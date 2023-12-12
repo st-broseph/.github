@@ -103,6 +103,14 @@ export interface UserProfile extends User {
     lastModifiedTime: Date;
     administrator: boolean;
 }
+
+export interface Messages {
+    id: string;
+    userId: string;
+    ticketId: string;
+    messageText: string;
+    lastModifiedTime: Date
+}
 ```
 
 ## Website
